@@ -21,6 +21,10 @@ header .logo img {
     width: auto;
 }
 
+.navbar {
+    width: 300px;
+}
+
 .navbar .navbar-nav .nav-link{
     color: #575757;
     font-size: 20px;
