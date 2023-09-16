@@ -1,0 +1,104 @@
+body {
+    background-color: #e4e4e4;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    height: 60px;
+    width: 100vw;
+    background-color: #FFFFFF;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    box-shadow: 1px 1px 2px 0px #c5c5c5;
+}
+
+header .logo img {
+    padding:0  20px;
+    height: 40px;
+    width: auto;
+}
+
+.navbar .navbar-nav .nav-link{
+    color: #575757;
+    font-size: 20px;
+    font-weight: 500;
+    transition: .1s;
+}
+
+.navbar .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active{
+    color: #d94e3bff;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+
+.modal-header .modal-title {
+    font-size: 50px;
+}
+
+.login-signup-container {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.login-signup-container .btn-secondary, .btn-danger {
+    border: 0px;
+    padding: 8px 20px;
+    margin-right: 20px;
+}
+
+.modal-content {
+    padding:  2px 15px;
+}
+
+.buttom-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttom-btn a {
+    color: rgb(82, 82, 82);
+}
+
+.buttom-btn .btn-danger {
+    border: 0px;
+    margin: 0px;
+    padding: 8px 20px;
+}
+
+#SignupModalCenter .btn-secondary {
+    padding: 8px 20px;
+}
+
+.modal a.btn {
+    color: #FFFFFF;
+}
+
+.content-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container .modal-title {
+    font-size: 20px;
+}
+
+.content-container .modal-dialog {
+    position:fixed;
+    top:auto;
+    right:auto;
+    left:20px;
+    bottom: 10px;
+}
+
+.content-container .close:active, .close:focus {
+    outline: none;
+}
+
+
